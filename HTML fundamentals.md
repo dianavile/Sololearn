@@ -638,3 +638,20 @@ Hex values are written using the hashtag symbol (#), followed by either 3/6 hex 
 #### Color Values
 All RGB combinations together give a potential number of over 16 million colors, which can be mixed to form additional colors.
 
+#### Background and Font Colors
+The `bgcolor` attribute can be used to change the web page's background color:
+Example:
+- Dark blue background with a white headline
+ ```
+<html>
+   <head> 
+      <title>first page</title>  
+   </head>
+   <body bgcolor="#000099">
+       <h1>
+        <font color="#FFFFFF"> White headline </font>
+       </h1> 
+   </body>
+</html>
+ ```
+
