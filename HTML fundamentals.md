@@ -625,3 +625,4 @@ Example:
   <input type="submit" value="SEND" class="submit" />
 </form>
  ```
+ __NOTE:__ To submit a real form and process the data, you'd need to create server-side code. 
