@@ -546,3 +546,20 @@ can be used either as __block level__ elements or __inline__ elements.
 
 __NOTE:__ You can insert  __inline__ elements inside __block__ elements: `<span>` elements inside a `<div>` element. 
  But you can not insert __block level__ elements into __inline__ elements.
+ 
+ 
+### The form Element
+HTML forms are used to collect information from the user.
+The form is submitted to a web page on a web server.
+Forms are defined using the `<form>` element:
+```
+<body>
+   <form>…</form>
+</body>
+```
+Use the __action attribute__ to point to a webpage to load after the user submits the form:
+```
+<form action="http://www.sololearn.com"> 
+</form>
+```
+ 
