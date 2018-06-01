@@ -522,7 +522,7 @@ Together with CSS styling, this element can be used to __style blocks of content
 #### The span element 
 The < span> element = an __inline__-element, used as a __container__ for _text_.
 Together with CSS, the `< span>` element can be used to __style text parts__:
-   ``` 
+``` 
 <html>
   <body>
     <h2>Some 
@@ -530,5 +530,6 @@ Together with CSS, the `< span>` element can be used to __style text parts__:
     Message</h2>
   </body>
 </html>
-      ```
-   
+```
+__NOTE:__ `< div>`-element = a __block-level__-section in a document 
+_ `< span>`-element= an __inline__-section in a document.
