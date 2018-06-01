@@ -164,6 +164,19 @@ __NOTE:__ Not all of the links in a document should be inside a `<nav>` element.
 The `<footer>` element often has a list of links that don't need to be in a` <nav>` element.
 
 ### Article, section & Aside
+#### The article Element
+The `<article>`-element = a self-contained piece of content to be used and distributed separately from the rest of the page or site. This could be a forum post, a magazine or newspaper article, a blog entry, a comment, an interactive widget or gadget, or any other independent piece of content. 
+
+The `<article>` element replaces the `<div>` element that was widely used in HTML4, along with an `id` or `class`.
+```
+<article> 
+   <h1>The article title</h1> 
+   <p>Contents of the article element </p>
+</article>
+```
+__NOTE:__ When an <article> element is nested, the inner element represents an article related to the outer element. 
+For example, blog post comments can be <article> elements nested in the <article> representing the blog post.
+
 ### The Audio element
 
 
