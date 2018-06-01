@@ -630,3 +630,11 @@ Example:
 ### HTML Colors!
 HTML colors are expressed as `hexadecimal values` : `0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F`
 It consists of 16 values, from `0`(=lowest value) to `F`(=highest value). 
+
+#### HTML Color Model
+Colors are displayed in combinations of __red, green, and blue__ light `(RGB)`.
+Hex values are written using the hashtag symbol (#), followed by either 3/6 hex characters.
+
+#### Color Values
+All RGB combinations together give a potential number of over 16 million colors, which can be mixed to form additional colors.
+
