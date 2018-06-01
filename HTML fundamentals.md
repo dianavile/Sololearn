@@ -653,16 +653,13 @@ Example:
        </h1> 
    </body>
 </html>
- ```
 
-###The frame Tag
-A page can be divided into `<frames>` using a special frame document. 
-The `<frame>` tag defines 1 window (frame) within a `<frameset>`. 
-Each `<frame>` in a `<frameset>` can have different attributes, `border, scrolling, resize`. 
-The `<frameset>` element specifies the number of columns or rows in the frameset, 
- as well as what percentage or number of pixels of space each of them occupies.   
-  ```  
-<frameset cols="100, 25%, *"></frameset>
-<frameset rows="100, 25%, *"></frameset>
- ```
- __NOTE:__  The `<frameset>` tag is not supported in HTML5.
+```
+use a frame to embed a YouTube video.
+```
+<div class="section">
+  <h1><span>My Media</span></h1>
+  <iframe height="150" width="300" src="https://www.youtube.com/embed/Q6_5InVJZ88" allowfullscreen frameborder="0"></iframe>
+        </div>
+```
+ __NOTE:__ `<frames>` are NOT supported in HTML5! 
