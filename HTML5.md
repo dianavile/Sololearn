@@ -140,7 +140,6 @@ The `<footer>` Element = to refer the section located at the bottom of the web p
 `<footer>…</footer>`
 
 The footer contains the following information:
-
 - Contact Information
 - Privacy Policy
 - Social Media Icons
@@ -177,8 +176,6 @@ The `<article>` element replaces the `<div>` element that was widely used in HTM
 __NOTE:__ When an <article> element is nested, the inner element represents an article related to the outer element. 
 For example, blog post comments can be <article> elements nested in the <article> representing the blog post.
     
-    
-    
 #### The section Element 
 A `<section>`- element = a logical container of _page_ or _article_. 
 Sections can be used to divide up content within an article. 
@@ -197,6 +194,21 @@ Example:
 ```
 __NOTE:__ If it makes sense to separately syndicate the content of a <section> element, use an <article> element instead.
 
+#### The aside Element
+The <aside> Element = secondary (tangential) content, separate from but indirectly related to the main content.
+This is represented in sidebars.
+When an <aside> tag is used within an <article> tag, the content of the <aside> should be specifically related to that article.
+    
+Example:
+```    
+<article>
+   <h1> Gifts for everyone </h1>
+   <p> This website will be the best place for choosing gifts </p>
+   <aside>
+      <p> Gifts will be delivered to you within 24 hours </p>
+   </aside>
+</article>
+``` 
 ### The Audio element
 
 
