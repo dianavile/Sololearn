@@ -337,7 +337,7 @@ Example:
    </body>
 </html>
 ```
-__NOTE:__The list items will be marked with __bullets__.
+__NOTE:__ The list items will be marked with __bullets__.
 Use the <ul> tag, in which each item is represented by the `< li>` tag.
 
 Example My Skills:
@@ -430,7 +430,7 @@ Use the `align` attribute inside table tag, to change table's position:
    </tr>
 </table>
 ```
-__NOTE:__In the case of styling elements, CSS is more effective than HTML.
+__NOTE:__ In the case of styling elements, CSS is more effective than HTML.
 
 #### Schedule
 Use table tags to add a table to your blog that represents your daily learning schedule.
@@ -488,4 +488,4 @@ The `< th>` tags represent the table headers.
 </tr>
 </table>
  ```
-
+__NOTE:__ The empty `< td>` tags represent empty table cells, necessary to maintain the table's structure.
