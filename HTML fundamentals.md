@@ -544,5 +544,5 @@ Other elements, like:
 - SCRIPT - script within an HTML document
 can be used either as __block level__ elements or __inline__ elements. 
 
-__NOTE:__ You can insert  __inline__ elements inside __block__ elements: <span> elements inside a <div> element. 
-   But __inline__ elements cannot contain any  __block level__ elements.
+__NOTE:__ You can insert  __inline__ elements inside __block__ elements: `<span>` elements inside a `<div>` element. 
+ But you can not insert __block level__ elements into __inline__ elements.
