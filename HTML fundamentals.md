@@ -600,4 +600,10 @@ The type `checkbox` allows the user to select > 1 option:
 <input type="checkbox" name="gender" value="1" /> Male <br />
 <input type="checkbox" name="gender" value="2" /> Female <br />
  ```
- 
+ EXAMPLE: 
+  ```
+<form method="POST" action="#">
+<input type="text" name="name">
+   <input type="submit" name="submit">
+</form>
+ ```
