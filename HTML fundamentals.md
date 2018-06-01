@@ -589,3 +589,15 @@ Example:
    <input type="password" name="password" />
 </form>
  ```
+### Form Elements
+The input type  `radio` allows the user to select only one number of choices:
+ ```
+<input type="radio" name="gender" value="male" /> Male <br />
+<input type="radio" name="gender" value="female" /> Female <br />
+ ```
+The type `checkbox` allows the user to select > 1 option:
+  ```
+<input type="checkbox" name="gender" value="1" /> Male <br />
+<input type="checkbox" name="gender" value="2" /> Female <br />
+ ```
+ 
