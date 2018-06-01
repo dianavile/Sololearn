@@ -607,3 +607,8 @@ The type `checkbox` allows the user to select > 1 option:
    <input type="submit" name="submit">
 </form>
  ```
+The `submi`t button submits a form to its action attribute:
+ ```
+<input type="submit" value="Submit" /> 
+ ```
+ __NOTE:__ After the form is submitted, the data should be processed on the server using a programming language, like PHP.
