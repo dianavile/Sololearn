@@ -547,7 +547,6 @@ can be used either as __block level__ elements or __inline__ elements.
 __NOTE:__ You can insert  __inline__ elements inside __block__ elements: `<span>` elements inside a `<div>` element. 
  But you can not insert __block level__ elements into __inline__ elements.
  
- 
 ### The form Element
 HTML forms are used to collect information from the user.
 The form is submitted to a web page on a web server.
@@ -562,4 +561,31 @@ Use the __action attribute__ to point to a webpage to load after the user submit
 <form action="http://www.sololearn.com"> 
 </form>
 ```
- 
+### The method and name Attributes: `GET` or `POST`
+The method attribute specifies the __HTTP method__ used when forms are submitted:
+ `GET`
+ = form data visible in page address.
+ ```
+<form action="url" method="GET">
+ ```
+
+`POST`
+ = form to update data, or include sensitive information (passwords).
+
+ ```
+<form action="url" method="POST">
+ ```
+ __NOTE:__ POST offers better security, the submitted data is not visible in the page address.
+
+The `name`-attribute =specifies a name for a form. 
+To take in user input, you need the corresponding form elements, such as text fields. 
+The `<input>` element has many variations, depending on the type attribute, like `text, password, radio, URL, submit`. 
+
+Example:
+- A form requesting a username and password:
+ ```
+<form>
+   <input type="text" name="username" /><br />
+   <input type="password" name="password" />
+</form>
+ ```
