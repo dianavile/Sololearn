@@ -489,3 +489,33 @@ The `< th>` tags represent the table headers.
 </table>
  ```
 __NOTE:__ The empty `< td>` tags represent empty table cells, necessary to maintain the table's structure.
+
+### Inline and Block Elements
+
+#### Types of Elements
+In HTML, most elements are defined as `block level` or `inline elements`.
+__Block level__-elements: start from a new line.
+Example: 
+ ```
+ `<h1>, <form>, <li>, <ol>, <ul>, <p>, <pre>, <table>, < div>`
+ ```
+__Inline__ elements are `displayed without line breaks`:
+Example: 
+ ```
+`<b>, <a>, <strong>, <img>, <input>, <em>, <span>`
+ ```
+#### The div element 
+The `< div>` element is a __block-level__-element, used as a __container__ for other HTML elements.
+Together with CSS styling, this element can be used to __style blocks of content__:
+```
+<html>
+  <body>
+    <h1>Headline</h1>
+    <div style="background-color:green; color:white; padding:20px;">
+      <p>Some paragraph text goes here.</p>
+      <p>Another paragraph goes here.</p>
+    </div>
+  </body> 
+</html>
+   ```
+   
