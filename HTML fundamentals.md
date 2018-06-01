@@ -626,3 +626,7 @@ Example:
 </form>
  ```
  __NOTE:__ To submit a real form and process the data, you'd need to create server-side code. 
+ 
+### HTML Colors!
+HTML colors are expressed as `hexadecimal values` : `0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F`
+It consists of 16 values, from `0`(=lowest value) to `F`(=highest value). 
