@@ -1,7 +1,7 @@
 # HTML Fundamentals
 HTML = a markup language, it use tags to identify content.
 ```
-<p> I'm a paragraph </p>
+<p> I'm a paragraph < /p>
 ```
 # Table of Content
 - Modern Web Design
@@ -23,11 +23,10 @@ __CSS__: Presentation
 __JavaScript__: Behavior
 
 ## Text formatting
-Browsers display <strong> as <b>, and <em> as <i>.
+Browsers display < strong> as < b>, and < em> as < i>.
 Yet, the meanings of these tags differ: 
-- `<b>` and `<i>` define __bold__ and __italic__ text
-- `<strong>` and `<em>`indicate the text is __"important"__
-
+- `< b>` and `< i>` define __bold__ and __italic__ text
+- `< strong>` and `< em>`indicate the text is __"important"__
 ```
 <html>
    <head>
@@ -51,10 +50,7 @@ Yet, the meanings of these tags differ:
 ## Headings, Lines, Comments
 
 ### HTML Headings
-HTML includes six levels of headings, which are ranked according to importance. 
-These are <h1>, <h2>, <h3>, <h4>, <h5>, and <h6>.
-
-The following code defines all of the headings:
+HTML includes six levels of headings, which are ranked according to importance:
 ```
 <html>
    <head>
@@ -73,7 +69,7 @@ The following code defines all of the headings:
 __NOTE:__ It is not recommended to use headings to make text big or bold, because search engines use headings to index the web page structure and content.
 
 ### Horizontal Lines
-To create a horizontal line, use the <hr /> tag.
+To create a horizontal line, use the < hr /> tag.
 ```
 <html>
    <head>
@@ -96,7 +92,6 @@ To create a horizontal line, use the <hr /> tag.
 The browser does not display comments:
 <!-- This is a comment -->
 Comments help document the HTML and add descriptions, reminders, and other notes.
-
 <!-- Your comment goes here -->
 ```
 Example:
@@ -116,7 +111,7 @@ __NOTE:__ There is an exclamation point (!) in the opening tag, but not in the c
 
 ### Formatting Text
 Example:
-- About Me section for Blog contain a heading that's wrapped in a <h1> tag.
+- About Me section for Blog contain a heading that's wrapped in a < h1> tag.
 - Along with two paragraphs that format text using tags.
 
 Example:
@@ -129,11 +124,11 @@ Hey! I'm <strong>Alex</strong>. Coding has changed my world  ...
 ```
 ### HTML Elements
 HTML documents are made up of `HTML elements`.
-HTML elements consist of: `<opening tag> content <closing tag />`
+HTML elements consist of: `< opening tag> content < closing tag />`
 HTML documents consist of `nested HTML elements`. 
 
 Example:
-- Body element includes `<p>`, `<br />` tag and content, `"This is a paragraph"`.    
+- Body element includes `< p>`, `<br />` tag and content, `"This is a paragraph"`.    
 ```    
 <html>
    <head>
@@ -144,7 +139,7 @@ Example:
    </body>
 </html>
 ```
-__NOTE:__ Some HTML elements (like the <br /> tag) do not have end tags.
+__NOTE:__ Some HTML elements (like the < br /> tag) do not have end tags.
 HTML is scripting with elements within elements: like `<br />`
 ```
 <html>
@@ -157,7 +152,8 @@ HTML is scripting with elements within elements: like `<br />`
 </html>
 ```
 ### HTML Attributes
-Attributes provide additional information about an element or a tag, while also modifying them. Most attributes have a value; the value modifies the attribute.
+Attributes provide additional information about an element or tag, and modify them. 
+Most attributes have a value; the value modifies the attribute.
 
 Example:
 - The value of "center" indicates the content within p element should be aligned to the center
@@ -177,7 +173,7 @@ Example:
 <hr width="50%" /> // width= 50%
 ```
 #### The Align Attribute
-The `align` attribute is used to `specify how the text is aligned`,to the right, center or left.
+The `align` attribute is used to `specify how the text is aligned`, to the right, center or left.
 ```
 <p  align ="left">
     <p  align ="center">
@@ -262,14 +258,15 @@ Use the `border` attribute within the `image tag` to create a border around the 
 <img src="tree.jpg" height="150px" width="150px" border="1px" alt="" /> 
 ```
 __NOTE:__ By default, an image has no borders. 
-However, by default, Internet Explorer 9, and its earlier versions, display a border around an image unless a border attribute is defined.
+However, by default, Internet Explorer 9, and its earlier versions, 
+display a border around an image unless a border attribute is defined.
 
 ### Links
 
 #### The a Tag
 Links are an integral part of every web page. 
 You can add links to text or images to enable the user to click on them to direct to another file or webpage.
-In HTML, links are defined using the <a> tag.
+In HTML, links are defined using the `< a>` tag.
 Use the `href` attribute to define the `link's destination address`: 
 ```
 <a href=""></a>
@@ -303,8 +300,8 @@ Example:
 ### Lists
 
 #### HTML Ordered Lists
-An ordered list starts with the <ol> tag.
-Each list item is defined by the <li> tag.
+An ordered list starts with the `< ol>` tag.
+Each list item is defined by the `< li>` tag.
 
 Example:
 ```
@@ -321,11 +318,10 @@ Example:
    </body>
 </html>
 ```
-__NOTE:__The list items will be automatically marked with __numbers__.
+__NOTE:__ The list items will be automatically marked with __numbers__.
 
 #### HTML Unordered List
-An unordered list starts with the <ul> tag:
-
+An unordered list starts with the `< ul>` tag:
 Example:
 ```
 <html>
@@ -342,11 +338,10 @@ Example:
 </html>
 ```
 __NOTE:__The list items will be marked with __bullets__.
-Use the <ul> tag, in which each item is represented by the <li> tag.
+Use the <ul> tag, in which each item is represented by the `< li>` tag.
 
 Example My Skills:
 - My Skills section= unordered list of languages you know.
-
 Example:
 ```
 <h1><span>My Skills</span></h1>
@@ -358,9 +353,9 @@ Example:
  ```
  
 ### Tables
-Tables = <table> tag. 
-Table rows =  <tr> tag.
-Table columns= (table data) <td> tag.
+Tables = `< table>` tag. 
+Table rows =  `< tr>` tag.
+Table columns= (table data) `< td>` tag.
 
 Example: 
 - a table with one row and three columns
@@ -373,7 +368,7 @@ Example:
    </tr>
 </table>
  ```
-__NOTE:__Table data tags <td> act as `data containers` within the table.
+__NOTE:__ Table data tags `< td>` act as `data containers` within the table.
 They can contain __all sorts of HTML elements__, such as `text, images, lists, other tables`.
     
 #### The Border and Colspan Attributes
@@ -439,8 +434,7 @@ __NOTE:__In the case of styling elements, CSS is more effective than HTML.
 
 #### Schedule
 Use table tags to add a table to your blog that represents your daily learning schedule.
-The <th> tags represent the table headers. 
-   
+The `< th>` tags represent the table headers. 
  ```   
 <h1><span>My Coding Schedule</span></h1>
 <table>
