@@ -612,3 +612,16 @@ The `submi`t button submits a form to its action attribute:
 <input type="submit" value="Submit" /> 
  ```
  __NOTE:__ After the form is submitted, the data should be processed on the server using a programming language, like PHP.
+ 
+### Contact Form
+- Include Name, Email, Message fields and a Submit button.
+Example:
+ ```
+<h1><span>Contact Me</span></h1>
+<form>
+  <input name="name" type="text" /><br/>
+  <input name="email" type="email" /><br/>
+  <textarea name="message"></textarea>
+  <input type="submit" value="SEND" class="submit" />
+</form>
+ ```
