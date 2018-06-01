@@ -176,6 +176,26 @@ The `<article>` element replaces the `<div>` element that was widely used in HTM
 ```
 __NOTE:__ When an <article> element is nested, the inner element represents an article related to the outer element. 
 For example, blog post comments can be <article> elements nested in the <article> representing the blog post.
+    
+    
+    
+#### The section Element 
+A `<section>`- element = a logical container of _page_ or _article_. 
+Sections can be used to divide up content within an article. 
+Each <section> should be identified, by including a heading (h1-h6 element) as a child of <section>.
+      
+Example:
+- a homepage with a section for introducing the company, news items, and contact information.
+```
+<article>
+   <h1>Welcome</h1>
+   <section>
+      <h1>Heading</h1>
+      <p>content or image</p>
+   </section>
+</article>    
+```
+__NOTE:__ If it makes sense to separately syndicate the content of a <section> element, use an <article> element instead.
 
 ### The Audio element
 
