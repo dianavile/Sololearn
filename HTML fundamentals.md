@@ -3,6 +3,19 @@ HTML = a markup language, it use tags to identify content.
 ```
 <p> I'm a paragraph </p>
 ```
+# Table of Content
+- Modern Web Design
+- Text formatting
+- Headings, Lines, Comments
+- Formatting text
+- HTML Elements
+- HTML Attributes
+- Attribute Measurements
+- Images
+- Links
+- List 
+- Table
+- Schedule
 
 ## Modern Web Design
 __HTML__: Structure
@@ -59,7 +72,6 @@ The following code defines all of the headings:
 ```
 __NOTE:__ It is not recommended to use headings to make text big or bold, because search engines use headings to index the web page structure and content.
 
-
 ### Horizontal Lines
 To create a horizontal line, use the <hr /> tag.
 ```
@@ -80,12 +92,11 @@ To create a horizontal line, use the <hr /> tag.
    </body>
 </html>
 ```
-
 ### Comments
-The browser does not display comments.
+The browser does not display comments:
+<!-- This is a comment -->
 Comments help document the HTML and add descriptions, reminders, and other notes.
 
-<!-- This is a comment -->
 <!-- Your comment goes here -->
 ```
 Example:
@@ -103,7 +114,6 @@ Example:
 ```
 __NOTE:__ There is an exclamation point (!) in the opening tag, but not in the closing tag.
 
-
 ### Formatting Text
 Example:
 - About Me section for Blog contain a heading that's wrapped in a <h1> tag.
@@ -117,7 +127,6 @@ Hey! I'm <strong>Alex</strong>. Coding has changed my world  ...
 </p>
 <p class="quote">"Declare variables, not war"</p>
 ```
-
 ### HTML Elements
 HTML documents are made up of `HTML elements`.
 HTML elements consist of: `<opening tag> content <closing tag />`
@@ -159,18 +168,14 @@ Example:
 ```
 __NOTE:__ Attributes are always specified in the start tag, and they appear in name="value" pairs.
 
-
 #### Attribute Measurements
- Attribute Measurements
 The easurement units for the `width` attribute:
 Example: 
 - modify the horizontal line to have a width of 50 pixels or percentage 50%.
-
 ```
 <hr width="50px" />// width= 50 pixel
 <hr width="50%" /> // width= 50%
 ```
-
 #### The Align Attribute
 The `align` attribute is used to `specify how the text is aligned`,to the right, center or left.
 ```
@@ -194,7 +199,6 @@ Example:
    </body>
 </html>
 ```
-
 #### Attributes
 What happens when you apply contradictory attributes within the same element?
 ```
@@ -203,7 +207,6 @@ What happens when you apply contradictory attributes within the same element?
    <hr width="50%" align="left" />
 </p>
 ```
-
 ### Images
 #### The <img> Tag
 The <img> tag is used to __insert an image__. 
@@ -230,7 +233,8 @@ Example:
    </body>
 </html>
 ```
-__NOTE:__ In case the image cannot be displayed, the `alt attribute` specifies an alternate text that describes the image in words. The alt attribute is __required__.
+__NOTE:__ In case the image cannot be displayed, the `alt attribute` specifies an alternate text that describes the image in words. 
+The alt attribute is __required__.
 
 #### Image Resizing
 To define the image size, use the `width` and `height` attributes.
@@ -262,16 +266,16 @@ However, by default, Internet Explorer 9, and its earlier versions, display a bo
 
 ### Links
 
-#### The < a > Tag
+#### The a Tag
 Links are an integral part of every web page. 
 You can add links to text or images to enable the user to click on them to direct to another file or webpage.
 In HTML, links are defined using the <a> tag.
-Use the `href` attribute to define the `link's destination address`:
+Use the `href` attribute to define the `link's destination address`: 
 ```
 <a href=""></a>
-```            
+```
 
-#### Create a Link
+### Create a Link
 Clicking on "Learn Playing" redirects you to a website.
 Links can be either absolute or relative.
 
@@ -353,7 +357,7 @@ Example:
  </ul>
  ```
  
-### Creating a Table
+### Tables
 Tables = <table> tag. 
 Table rows =  <tr> tag.
 Table columns= (table data) <td> tag.
@@ -433,10 +437,11 @@ Use the `align` attribute inside table tag, to change table's position:
 ```
 __NOTE:__In the case of styling elements, CSS is more effective than HTML.
 
-
-#### Create a Schedule
+#### Schedule
 Use table tags to add a table to your blog that represents your daily learning schedule.
-The <th> tags represent the table headers. Take a look at the following code:
+The <th> tags represent the table headers. 
+   
+ ```   
 <h1><span>My Coding Schedule</span></h1>
 <table>
 <tr>
@@ -488,4 +493,5 @@ The <th> tags represent the table headers. Take a look at the following code:
   <td class="selected">Discuss</td>
 </tr>
 </table>
+ ```
 
