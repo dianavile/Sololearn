@@ -505,7 +505,7 @@ Example:
 `<b>, <a>, <strong>, <img>, <input>, <em>, <span>`
  ```
 #### The div element 
-The `< div>` element is a __block-level__-element, used as a __container__ for other HTML elements.
+The `< div>` element is a __block-level__-element, used as a __container__ for _other HTML elements_.
 Together with CSS styling, this element can be used to __style blocks of content__:
 ```
 <html>
@@ -518,4 +518,17 @@ Together with CSS styling, this element can be used to __style blocks of content
   </body> 
 </html>
    ```
+ 
+#### The span element 
+The < span> element = an __inline__-element, used as a __container__ for _text_.
+Together with CSS, the `< span>` element can be used to __style text parts__:
+   ``` 
+<html>
+  <body>
+    <h2>Some 
+      <span style="color:red">Important</span>
+    Message</h2>
+  </body>
+</html>
+      ```
    
