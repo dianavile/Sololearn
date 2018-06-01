@@ -533,3 +533,16 @@ Together with CSS, the `<span>` element can be used to __style text parts__:
 </html>
 ```
 __NOTE:__ `<span>`-element= an __inline__-section in a document.
+
+### Types of Elements
+Other elements, like:
+- APPLET - embedded Java applet
+- IFRAME - Inline frame
+- INS - inserted text
+- MAP - image map
+- OBJECT - embedded object
+- SCRIPT - script within an HTML document
+can be used either as __block level__ elements or __inline__ elements. 
+
+__NOTE:__ You can insert  __inline__ elements inside __block__ elements: <span> elements inside a <div> element. 
+   But __inline__ elements cannot contain any  __block level__ elements.
