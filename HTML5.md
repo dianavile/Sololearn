@@ -210,6 +210,13 @@ Example:
 </article>
 ``` 
 ### The Audio element
+__Audio on the Web__: Before HTML5, there was no standard for playing audio files on a web page.
+The HTML5 ` <audio>`  element specifies a standard for embedding audio in a web page.
 
-
-    
+#### How to specify the audio source file's URL. 
+The first uses the source attribute:
+``` 
+<audio src="audio.mp3" controls>
+   Audio element not supported by your browser
+</audio>
+```     
