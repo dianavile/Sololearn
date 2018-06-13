@@ -253,3 +253,15 @@ __NOTE:__The text in between the audio tags `<audio>` and `</audio>` display in 
 <audio controls autoplay loop>
 ```   
 __NOTE:__ there are three supported file formats for the <audio> element: MP3, WAV, and OGG.
+
+
+### Videos in HTML
+The video element is similar to the audio element. 
+You can specify the video source URL using an `attribute in a video element`, or using `source elements inside the video element`:
+ ``` 
+<video controls>
+   <source src="video.mp4" type="video/mp4">
+   <source src="video.ogg" type="video/ogg">
+   Video is not supported by your browser
+</video>
+ ``` 
