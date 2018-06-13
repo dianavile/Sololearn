@@ -252,7 +252,7 @@ __NOTE:__The text in between the audio tags `<audio>` and `</audio>` display in 
  ``` 
 <audio controls autoplay loop>
 ```   
-__NOTE:__ there are three supported file formats for the <audio> element: MP3, WAV, and OGG.
+__NOTE:__ there are three supported file formats for the <audio> element: `MP3`, `WAV`, and `OGG`.
 
 
 ### Videos in HTML
@@ -276,4 +276,5 @@ Another aspect shared by both the audio and the video elements is that each has 
    <source src="video.ogg" type="video/ogg">
    Video is not supported by your browser
 </video>
- ``` 
+ ```     
+__NOTE:__ there are three supported video formats for the <video> element: `MP4`, `WebM`, and `OGG`.
