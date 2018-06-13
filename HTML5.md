@@ -239,7 +239,7 @@ The <audio> element creates an audio player inside the browser.
    Audio element not supported by your browser. 
 </audio>
  ``` 
-- __NOTE__:The text in between the audio tags `<audio>` and `</audio>` display in browsers that do not support the <audio> element.    
+__NOTE:__The text in between the audio tags `<audio>` and `</audio>` display in browsers that do not support the <audio> element.    
 
 ### Attributes of <audio>
 - `controls`= audio controls should be displayed (such as a play/pause button, etc.)
@@ -252,3 +252,4 @@ The <audio> element creates an audio player inside the browser.
  ``` 
 <audio controls autoplay loop>
 ```   
+__NOTE:__ there are three supported file formats for the <audio> element: MP3, WAV, and OGG.
