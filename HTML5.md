@@ -265,3 +265,5 @@ You can specify the video source URL using an `attribute in a video element`, or
    Video is not supported by your browser
 </video>
  ``` 
+
+__NOTE:__ the major browsers do not all support the same file types. If the browser does not support the first video type, it will try the next one.
