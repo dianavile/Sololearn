@@ -228,3 +228,4 @@ METHOD 2: use <source> element inside <audio> element:
    <source src="audio.ogg" type="audio/ogg">
 </audio>
  ``` 
+Multiple <source> elements can be linked to different audio files. The browser will use the first recognized format.    
