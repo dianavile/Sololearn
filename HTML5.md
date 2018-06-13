@@ -214,9 +214,17 @@ __Audio on the Web__: Before HTML5, there was no standard for playing audio file
 The HTML5 ` <audio>`  element specifies a standard for embedding audio in a web page.
 
 #### How to specify the audio source file's URL. 
-The first uses the source attribute:
+METHOD 1: use source attribute:
 ``` 
 <audio src="audio.mp3" controls>
    Audio element not supported by your browser
 </audio>
 ```     
+
+METHOD 2: use <source> element inside <audio> element:
+``` 
+<audio controls>
+   <source src="audio.mp3" type="audio/mpeg">
+   <source src="audio.ogg" type="audio/ogg">
+</audio>
+ ``` 
