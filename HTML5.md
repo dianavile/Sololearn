@@ -247,4 +247,8 @@ The <audio> element creates an audio player inside the browser.
 ``` 
 <audio controls autoplay>
  ``` 
-    
+
+`loop` = to have the audio replay every time it is finished.
+ ``` 
+<audio controls autoplay loop>
+```   
