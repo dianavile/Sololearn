@@ -239,4 +239,6 @@ The <audio> element creates an audio player inside the browser.
    Audio element not supported by your browser. 
 </audio>
  ``` 
-__NOTE:__The text between the <audio> and </audio> tags will display in browsers that do not support the <audio> element.    
+__NOTE:__The text in between the audio tags `<audio>` and `</audio>` display in browsers that do not support the <audio> element.    
+
+
