@@ -239,6 +239,12 @@ The <audio> element creates an audio player inside the browser.
    Audio element not supported by your browser. 
 </audio>
  ``` 
-__NOTE:__The text in between the audio tags `<audio>` and `</audio>` display in browsers that do not support the <audio> element.    
+- __NOTE__:The text in between the audio tags `<audio>` and `</audio>` display in browsers that do not support the <audio> element.    
 
-
+### Attributes of <audio>
+- `controls`= audio controls should be displayed (such as a play/pause button, etc.)
+- `autoplay`= audio starts playing as soon as it is ready, without asking for the visitor's permission.
+``` 
+<audio controls autoplay>
+ ``` 
+    
