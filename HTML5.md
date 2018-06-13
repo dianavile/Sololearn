@@ -265,5 +265,15 @@ You can specify the video source URL using an `attribute in a video element`, or
    Video is not supported by your browser
 </video>
  ``` 
-
 __NOTE:__ the major browsers do not all support the same file types. If the browser does not support the first video type, it will try the next one.
+
+### Attributes of <video>
+Another aspect shared by both the audio and the video elements is that each has controls, autoplay and loop attributes. 
+- Example: the video will replay (after finishing playing)
+ ``` 
+<video controls autoplay loop>
+   <source src="video.mp4" type="video/mp4">
+   <source src="video.ogg" type="video/ogg">
+   Video is not supported by your browser
+</video>
+ ``` 
