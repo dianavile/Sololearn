@@ -313,3 +313,26 @@ There are two types of web storage objects:
 - __Session Storage__ = destroyed once the user closes the browser
 - __Local Storage__ =  stores data with no expiration date
 __NOTE:__  You need to be familiar with basic JavaScript in order to understand and use the API.
+
+### Working with Values
+The syntax for web storage for both local and session storage is very simple and similar.
+The data is stored as key/value pairs.
+
+### Storing a Value:
+ ``` 
+localStorage.setItem("key1", "value1");
+ ``` 
+### Getting a Value:
+ ``` 
+//this will print the value
+alert(localStorage.getItem("key1")); 
+ ``` 
+### Removing a Value:
+ ``` 
+localStorage.removeItem("key1");
+ ``` 
+### Removing All Values:
+ ``` 
+localStorage.clear();
+ ``` 
+__NOTE:__ The same syntax applies to the session storage, with one difference: Instead of localStorage, sessionStorage is used.
