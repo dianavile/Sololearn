@@ -363,6 +363,8 @@ User location can be presented in two ways:
 - 1) `Geodetic` =to describe position refers directly to latitude and longitude.
 - 2) `Civic`.= location data presented in a format more easily read and understood by the average person.
 
+[Presenting Data](!https://github.com/dianavile/Sololearn/blob/master/PresentingData.png)
+
 Each parameter has both a geodetic and a civic representation:
 - The `getCurrentPosition()` method returns an object if it is successful. 
 - The `latitude`, `longitude`, and `accuracy` properties are always returned.
