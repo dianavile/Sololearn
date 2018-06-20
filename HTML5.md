@@ -280,8 +280,7 @@ __NOTE:__ there are three supported video formats for the <video> element: `MP4`
 
 
 ### Progress Bar
-The `<progress>` element = to create __progress bars__ on the web.
-Usage: within `headings`, `paragraphs`, or `elsewhere in the body`.
+The `<progress>` element = to create __progress bars__ on the web, within `headings`, `paragraphs`, or `elsewhere in the body`.
 
 ### Progress Element Attributes
 __Value:__ how much of the task has been completed. 
@@ -292,3 +291,4 @@ __Max:__ how much work the task requires in total.
 Status: <progress min="0" max="100" value="35">
 </progress>
  ``` 
+__NOTE:__ Use the `<progress>` tag in conjunction with JavaScript to dynamically display a task's progress.
