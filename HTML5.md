@@ -100,7 +100,6 @@ __Flow content:__Contains the majority of HTML5 elements that would be included 
 __Sectioning content:__scope of headings, content, navigation, and footers.
 Elements: `<article>, <aside>, <nav>, <section>`
 
-
 ### Page Structure in HTML5
 A generic HTML5 page structure looks like this:
 
@@ -244,10 +243,9 @@ __NOTE:__The text in between the audio tags `<audio>` and `</audio>` display in 
 ### Attributes of <audio>
 - `controls`= audio controls should be displayed (such as a play/pause button, etc.)
 - `autoplay`= audio starts playing as soon as it is ready, without asking for the visitor's permission.
-``` 
-<audio controls autoplay>
  ``` 
-
+<audio controls autoplay>
+ ```  
 `loop` = to have the audio replay every time it is finished.
  ``` 
 <audio controls autoplay loop>
@@ -278,11 +276,10 @@ Another aspect shared by both the audio and the video elements is that each has 
  ```     
 __NOTE:__ there are three supported video formats for the <video> element: `MP4`, `WebM`, and `OGG`.
 
-
 ### Progress Bar
 The `<progress>` element = to create __progress bars__ on the web, within `headings`, `paragraphs`, or `elsewhere in the body`.
 
-### Progress Element Attributes
+#### Progress Element Attributes
 __Value:__ how much of the task has been completed. 
 __Max:__ how much work the task requires in total.
 
@@ -297,14 +294,14 @@ __NOTE:__ Use the `<progress>` tag in conjunction with JavaScript to dynamically
 With `HTML5 web storage`, websites can store __data on a user's local computer.__ 
 Before HTML5, we had to use JavaScript cookies to achieve this functionality. 
 
-### Advantages of Web Storage:
+#### Advantages of Web Storage:
 - 1) More secure
 - 2) Faster
 - 3) Stores a larger amount of data
 - 4) Stored data is not sent with every server request
 - 5) Local storage is per domain. All pages from one domain can store and access the same data.
 
-### Types of Web Storage Objects
+#### Types of Web Storage Objects
 There are two types of web storage objects:
 - `sessionStorage()`
 - `localStorage()`
@@ -318,21 +315,30 @@ __NOTE:__  You need to be familiar with basic JavaScript in order to understand 
 The syntax for web storage for both local and session storage is very simple and similar.
 The data is stored as key/value pairs.
 
-### Storing a Value:
+#### Storing a Value:
  ``` 
 localStorage.setItem("key1", "value1");
  ``` 
-### Getting a Value:
+#### Getting a Value:
  ``` 
 //this will print the value
 alert(localStorage.getItem("key1")); 
  ``` 
-### Removing a Value:
+#### Removing a Value:
  ``` 
 localStorage.removeItem("key1");
  ``` 
-### Removing All Values:
+#### Removing All Values:
  ``` 
 localStorage.clear();
  ``` 
 __NOTE:__ The same syntax applies to the session storage, with one difference: Instead of localStorage, sessionStorage is used.
+
+- Example:
+Drag and drop from the options below to clear all values stored in the localStorage. 
+Then store "a" using the key "b".
+ ``` 
+localStorage.clear ();
+localStorage.
+     setItem("b" , "a" );
+ ```           
