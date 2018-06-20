@@ -292,3 +292,24 @@ Status: <progress min="0" max="100" value="35">
 </progress>
  ``` 
 __NOTE:__ Use the `<progress>` tag in conjunction with JavaScript to dynamically display a task's progress.
+
+### HTML5 Web Storage
+With `HTML5 web storage`, websites can store __data on a user's local computer.__ 
+Before HTML5, we had to use JavaScript cookies to achieve this functionality. 
+
+### Advantages of Web Storage:
+- 1) More secure
+- 2) Faster
+- 3) Stores a larger amount of data
+- 4) Stored data is not sent with every server request
+- 5) Local storage is per domain. All pages from one domain can store and access the same data.
+
+### Types of Web Storage Objects
+There are two types of web storage objects:
+- `sessionStorage()`
+- `localStorage()`
+
+### Local vs. Session
+- __Session Storage__ = destroyed once the user closes the browser
+- __Local Storage__ =  stores data with no expiration date
+__NOTE:__  You need to be familiar with basic JavaScript in order to understand and use the API.
