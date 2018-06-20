@@ -357,4 +357,12 @@ navigator.geolocation.getCurrentPosition();
 - `ErrorHandler(optional)`: callback method that is invoked when an error occurs in processing the asynchronous call.
 - `Options (optional)`: a set of options for retrieving the location information.
 __NOTE:__ You need to be familiar with basic JavaScript in order to understand and use the API.
- 
+
+#### Presenting Data
+User location can be presented in two ways: 
+- 1) `Geodetic` =to describe position refers directly to latitude and longitude.
+- 2) `Civic`.= location data presented in a format more easily read and understood by the average person.
+
+Each parameter has both a geodetic and a civic representation:
+- The `getCurrentPosition()` method returns an object if it is successful. 
+- The `latitude`, `longitude`, and `accuracy` properties are always returned.
