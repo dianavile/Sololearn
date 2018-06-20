@@ -254,7 +254,6 @@ __NOTE:__The text in between the audio tags `<audio>` and `</audio>` display in 
 ```   
 __NOTE:__ there are three supported file formats for the <audio> element: `MP3`, `WAV`, and `OGG`.
 
-
 ### Videos in HTML
 The video element is similar to the audio element. 
 You can specify the video source URL using an `attribute in a video element`, or using `source elements inside the video element`:
@@ -278,3 +277,18 @@ Another aspect shared by both the audio and the video elements is that each has 
 </video>
  ```     
 __NOTE:__ there are three supported video formats for the <video> element: `MP4`, `WebM`, and `OGG`.
+
+
+### Progress Bar
+The `<progress>` element = to create __progress bars__ on the web.
+Usage: within `headings`, `paragraphs`, or `elsewhere in the body`.
+
+### Progress Element Attributes
+__Value:__ how much of the task has been completed. 
+__Max:__ how much work the task requires in total.
+
+- Example:
+ ``` 
+Status: <progress min="0" max="100" value="35">
+</progress>
+ ``` 
