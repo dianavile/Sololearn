@@ -341,4 +341,9 @@ Then store "a" using the key "b".
 localStorage.clear ();
 localStorage.
      setItem("b" , "a" );
- ```           
+ ```  
+ ### Geolocation Api
+In HTML5, the `Geolocation API` = to obtain the __user's geographical location.__
+Since this can compromise user privacy, the option is not available unless the user approves it.
+Geolocation is much more accurate for devices with GPS, like smartphones and the like.
+ 
